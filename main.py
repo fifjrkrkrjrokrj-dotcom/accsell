@@ -65,16 +65,13 @@ def main():
     app.add_handler(MessageHandler(filters.PHOTO, screenshot_handler))
 
     logger.info("✅ Modular Bot Starting Up with MongoDB...")
-    
+
     # Run MongoDB init within the application loop
     import asyncio
+
     async def init():
-        await database.init_db()
-        
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(init())
+    await database.init_db()
+
+    asyncio.run(init())
 
     app.run_polling(drop_pending_updates=True)
-
-if __name__ == "__main__":
-    main()
