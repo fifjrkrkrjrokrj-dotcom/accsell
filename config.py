@@ -1,27 +1,29 @@
 from datetime import timezone, timedelta
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-BOT_TOKEN      = "8660959893:AAH7DZuJ881zovepHJimxCZm0lAmBon_64E"
-ADMIN_IDS      = [6105009337]
-ADMIN_GROUP_ID = -1003851725251
-LOG_CHANNEL_ID = -1003792173111
+BOT_TOKEN      = "8663089754:AAGhkc-WhuKhu0mYblOced77OkaUrfcq3QE"
+ADMIN_IDS      = [5286579067,6740955542]
+ADMIN_GROUP_ID = -1003837647645
+LOG_CHANNEL_ID = -1003916799207
 API_ID         = 30191201
 API_HASH       = "5c87a8808e935cc3d97958d0bb24ff1f"
-UPI_ID         = "bannybhanu143@fam"
+UPI_ID         = "rohan242009@fam"
+DB_PATH        = "numberstore001982.db"
 IST            = timezone(timedelta(hours=5, minutes=30))
 
 # MongoDB Connection
-MONGO_URI      = "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI      = "mongodb+srv://VillainIDselling:VillainIDselling@cluster0.dqlqb5i.mongodb.net/?appName=Cluster0"
 DB_NAME        = "numberstore_db"
 
 # Gmail credentials for auto-approval
-GMAIL_USER     = "banukeranracharla113355@gmail.com"
-GMAIL_APP_PASS = "igju mewf yysh ejex"
+GMAIL_USER     = "ashishchoudharyrj21@gmail.com"
+GMAIL_APP_PASS = "nsbh dkqi jqil wwuw"
 FAMAPP_EMAILS  = ["no-reply@famapp.in"]
 
 OXAPAY_MERCHANT_KEY = "R7GWJN-NPCMVX-H3QYHQ-FL2DJA"
 OXAPAY_API_BASE     = "https://api.oxapay.com"
-STORE_TAG           = "@OTP_SELLER143_BOT"
-STORE_LINK          = "http://t.me/OTP_SELLER143_BOT"
+STORE_TAG           = "@IamVillainStoreBot"
+STORE_LINK          = "http://t.me/IamVillainStoreBot"
 SERVER_NUM          = 1
 REFERRAL_COMMISSION = 0.01  # 1%
+
